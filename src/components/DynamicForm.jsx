@@ -73,7 +73,11 @@ const DynamicForm = () => {
     }
   return (
     <div> 
+
         <form className="form"  onSubmit={handleSubmit}>
+            <div>
+                <h2>Create Account</h2>
+            </div>
         <div className="formDiv">
         <label htmlFor="name">Name</label>
         <input 
